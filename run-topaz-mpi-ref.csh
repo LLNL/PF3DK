@@ -13,4 +13,4 @@ echo "Creating reference output on the Intel Broadwell"
 # NOTE - the intent is that the product of the number of MPI processes
 # and the number of OMP threads per process should equal the number
 # of cores (36 for a CTS-1 Broadwell)
-srun -i0 -u -N 1 -n 36 $CODE 128 192   80   1 1 -ref-O0
+srun -i0 -u -N 1 -n 36 $CODE 128 160   80   1 1 -ref-O0

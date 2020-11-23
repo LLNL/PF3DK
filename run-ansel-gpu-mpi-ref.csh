@@ -13,5 +13,5 @@ echo "Running on the Power 9 Volta GPU"
 # normal host CPU runs to try and get enough work to keep the GPU busy
 # WARNING - this run builds a reference for 10 OMP threads per MPI process
 # and that might cause some differences compared to pure MPI.
-# lrun -N 1 -n 4 nvprof $CODE 128 192   80   10 1 ref
-lrun -N 1 -n 4 nvprof $CODE 128 192   80   1 1 ref
+# lrun -N 1 -n 4 nvprof $CODE 128 160   80   10 1 ref
+lrun -N 1 -n 4 nvprof $CODE 128 160   80   1 1 ref
