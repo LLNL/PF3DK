@@ -128,7 +128,7 @@ License
 
 PF3DK is distributed under the terms of the BSD-3 license. All new contributions must be made under the BSD-3 license.
 
-See LICENSE-BSD and NOTICE for details.
+See LICENSE and NOTICE for details.
 
 SPDX-License-Identifier: BSD-3-Clause
 
